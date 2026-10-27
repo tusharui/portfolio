@@ -4,9 +4,14 @@ export default function Home() {
       <main className="flex flex-1 w-full max-w-3xl flex-col items-start gap-10 sm:gap-12 py-10 sm:py-16 px-4 sm:px-6 md:px-8 lg:px-16">
         <section className="flex flex-col gap-6">
           <div className="flex flex-col gap-2">
-            <h1 className="text-3xl font-semibold tracking-tight text-foreground sm:text-4xl md:text-5xl">
-              Hi, I'm Tushar.
-            </h1>
+            <div className="flex flex-wrap items-center gap-3">
+              <h1 className="text-3xl font-semibold tracking-tight text-foreground sm:text-4xl md:text-5xl">
+                Hi, I'm Tushar.
+              </h1>
+              <span className="inline-flex items-center rounded-full bg-green-100 px-3 py-1 text-sm font-medium text-green-800 dark:bg-green-900/30 dark:text-green-400">
+                Open to Work
+              </span>
+            </div>
             <div className="flex flex-wrap items-center gap-3 text-sm text-muted-foreground">
               <a
                 href="https://github.com/tusharui"
